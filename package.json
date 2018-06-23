@@ -10,7 +10,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push-gh-pages": "./push-gh-pages.js"
   },
   "repository": {
     "type": "git",
@@ -33,5 +34,8 @@
     "serve-index": "^1.9.1",
     "serve-static": "^1.13.2",
     "showdown": "^1.8.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }

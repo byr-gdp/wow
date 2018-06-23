@@ -32,3 +32,7 @@
 - `wow build -s markdown`
 - `wow serve -d output`
 - visit <http://127.0.0.1:3000>
+
+## Preview
+
+[wow](//byr-gdp.github.io/wow/index.html)
