@@ -1,0 +1,37 @@
+{
+  "name": "wow",
+  "version": "1.0.0",
+  "description": "a static site generator",
+  "main": "index.js",
+  "bin": {
+    "wow": "./bin/wow.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byr-gdp/wow.git"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byr-gdp/wow/issues"
+  },
+  "homepage": "https://github.com/byr-gdp/wow#readme",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "meow": "^5.0.0",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.13.2",
+    "showdown": "^1.8.6"
+  }
+}
