@@ -1,18 +1,6 @@
 # wow
 
-> a static site generator
-
-根据指定目录中的 markdown 文件渲染出 html，并保持同样的目录结构。同时注入预先配置好的页面模板和样式。
-
-## Todo
-
-- 读取 markdown 目录，生成目录结构 json。√
-- 处理 markdown 文件生成 html。√
-- 生成 html 注入基本页面模板和样式。√
-- 静态服务器。√
-- 首页兜底。√
-- gh-pages 推送，利用 GitHub 预览。
-- 统计。
+> A static site generator. Write markdown, build HTML.
 
 ## Install
 
@@ -36,3 +24,19 @@
 ## Preview
 
 [wow](//byr-gdp.github.io/wow/index.html)
+
+
+## Todo
+
+- 访问统计，通过配置文件方式。
+- build 前 clean 操作。
+- 代码中 TODO 解决。
+
+## Done
+
+- 读取 markdown 目录，生成目录结构 json。
+- 处理 markdown 文件生成 html。
+- 生成 html 并注入基本页面模板和样式。
+- 静态服务器。
+- 首页兜底。
+- gh-pages 推送，利用 GitHub 预览。
