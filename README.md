@@ -34,9 +34,9 @@
 
 ## Done
 
-- 读取 markdown 目录，生成目录结构 json。
+- 读取 markdown 目录，生成目录结构 json。
 - 处理 markdown 文件生成 html。
-- 生成 html 并注入基本页面模板和样式。
+- 生成 html 并注入基本页面模板和样式。
 - 静态服务器。
 - 首页兜底。
 - gh-pages 推送，利用 GitHub 预览。
