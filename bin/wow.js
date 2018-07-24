@@ -45,8 +45,8 @@ const cli = meow(`
 	}
 });
 
-console.log(cli.input)
-console.log(cli.flags);
+// console.log(cli.input)
+// console.log(cli.flags);
 
 // TODO: 参数校验
 if (cli.input[0] === 'build') {
