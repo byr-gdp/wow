@@ -15,11 +15,12 @@
 
 ## Test
 
-- 完成 Install 步骤
-- 进入 test 目录
-- `wow build -s markdown`
-- `wow serve -d output`
-- visit <http://127.0.0.1:3000>
+- 完成 Install 步骤。
+- 进入 test 目录。
+- `wow build -s markdown`。
+- `wow serve -d output`。
+- visit <http://127.0.0.1:3000>。
+- `wow publish -d output`，发布 output 目录到当前仓库的 gh-pages 分支。
 
 ## Preview
 
@@ -27,9 +28,9 @@
 
 ## Todo
 
-- meta 信息。
+- markdown 声明 meta 信息并在 compile 模板时提取。
 - 404 页面。
-- 访问统计，通过配置文件方式。
+- 访问统计（如 GA），通过配置文件方式。
 - 代码中 TODO 解决。
 - CSS 抽出。
 
