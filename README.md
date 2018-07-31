@@ -27,10 +27,11 @@
 
 ## Todo
 
+- meta 信息。
+- 404 页面。
 - 访问统计，通过配置文件方式。
 - 代码中 TODO 解决。
 - CSS 抽出。
-- 增加 publish 指令，发送指令目录到当前仓库 gh-pages 分支。
 
 ## Done
 
@@ -41,3 +42,4 @@
 - 首页兜底。
 - gh-pages 推送，利用 GitHub 预览（仅本项目测试使用，详见 `npm run push-gh-pages` 指令）。
 - build 前 clean 操作。
+- 增加 publish 指令，发送指令目录到当前仓库 gh-pages 分支。
